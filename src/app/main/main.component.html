@@ -1,0 +1,27 @@
+<div class="left">
+  <h1 style="color:azure">Yash slack</h1>>
+<div><input type="text" id="AddC" placeholder="Enter Channel Name" [(ngModel)]='ForAdd'/></div><br/>
+<div><button id="addchannel" type="button" (click)="AddButtonClicked(ForAdd)">Add Channel</button></div><br/>
+<div><input type="text" id="SearchChannel" placeholder="Search Channel Name" [(ngModel)]=ForSearch/></div><br/>
+<div><button id="searchchannel" type="button" (click)="SearchButtonClicked(ForSearch)">Search Channel</button></div>
+{{MyVar}}
+</div><br/>
+<div class="display">
+  <div class="textarea">
+
+<input type="text" class="SearchChannel" placeholder="Type Message here" [(ngModel)]=Msg/>
+<button id="searchchannel" type="button" (click)="Send(Msg)">Send Message</button>
+<button id="searchchannel" type="button" (click)="History()">Show Message</button>
+</div>
+<ul *ngFor = "let messagedetail of msgArr">
+  <li class="message">{{messagedetail}}</li>
+</ul>
+</div>
+<!-- <h1>{{msgArr}}</h1> -->
+
+
+
+
+
+
+   

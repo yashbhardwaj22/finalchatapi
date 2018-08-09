@@ -1,0 +1,31 @@
+.left{
+    float:left;
+    width:20%;
+    background-color: #4A394B;
+    height: 100vh;
+    padding: 3%;
+    margin-bottom: 0;
+    font-size: 15px;
+}
+
+.display{
+    float: left;
+    width: 80%;
+    height:100vh;
+    background: ece5dd;
+    padding-left: 10%;
+     overflow:scroll;
+}
+
+.textarea{
+   position: fixed;
+   bottom: 0;
+   width: 100%;
+}
+
+.message{
+    background-color: darkgray;
+    border:1px solid black;
+    overflow: hidden;
+    padding: 10px;
+}
